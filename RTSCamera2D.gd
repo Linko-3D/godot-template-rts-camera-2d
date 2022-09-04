@@ -6,9 +6,6 @@ var max_unzoom = 0.4
 
 var drag_cursor_shape = false
 
-func _ready():
-	current = true
-
 func _input(event):
 	if event is InputEventMouseMotion:
 		if event.button_mask == MOUSE_BUTTON_MASK_MIDDLE:
